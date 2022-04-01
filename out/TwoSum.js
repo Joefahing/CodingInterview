@@ -27,15 +27,15 @@ console.log('The space complexity for this solution is O(1) because no variables
 function twoSumHashMap(nums, target) {
     var result = [];
     var indexLookup = new Map();
-    nums.forEach(function (value, index) {
-        indexLookup.set(value, index);
-    });
     for (var i = 0; i < nums.length; i++) {
         var findNum = target - nums[i];
         if (indexLookup.has(findNum)) {
             result.push(i);
             result.push(indexLookup.get(findNum));
             break;
+        }
+        else {
+            indexLookup.set(nums[i], i);
         }
     }
     return result;
