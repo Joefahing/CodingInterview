@@ -54,5 +54,7 @@ function twoSumSorted() {
     numbers = [-1, 0];
     target = -1;
     console.log("The indexes for numbers " + numbers + " with target " + target + " is " + twoSumSortedOptimized(numbers, target));
+    console.log("The time complexity for brute force solution is O(n) for iterating through the list");
+    console.log("The space complexity for brute force solution is O(1) because size of match is always 2");
 }
 twoSumSorted();
