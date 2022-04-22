@@ -4,6 +4,8 @@
  * contiguous subarray having all 1s
  */
 
+// Time complexity is O(n) for iterating through each elements
+// Space complexity is O(1)
 
 function longestOnesAfterReplacement(nums: number[], k: number): number
 {
