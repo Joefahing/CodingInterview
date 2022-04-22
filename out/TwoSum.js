@@ -42,4 +42,4 @@ function twoSumHashMap(nums, target) {
 }
 console.log("Indexes that adds up to " + target + " for [" + nums + "] is [" + twoSumHashMap(nums, target) + "]");
 console.log("The time complexity for this solution is O(n) because we only iterate through 2n times");
-console.log("The space complexity is O(n) as we trade off space for time by using hasmap to store indexes for faster lookup");
+console.log("The space complexity is O(n) as we trade off space for time by using hasmap to store indexes for faster lookup")
