@@ -47,4 +47,3 @@ function longestOnesAfterReplacementSolution(): void
 }
 
 longestOnesAfterReplacementSolution();
-
