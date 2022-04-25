@@ -3,6 +3,8 @@
  * Given an array containing 0s and 1s, if you are allowed to replace no more than ‘k’ 0s with 1s, find the length of the longest
  * contiguous subarray having all 1s
  */
+// Time complexity is O(n) for iterating through each elements
+// Space complexity is O(1)
 function longestOnesAfterReplacement(nums, k) {
     if (k >= nums.length)
         return nums.length;
