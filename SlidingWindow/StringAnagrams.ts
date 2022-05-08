@@ -21,7 +21,7 @@ function stringAnagramsSolution(str: string, pattern: string): number[] {
     const start_indices: number[] = [];
 
     if (pattern.length > str.length) {
-        return start_indices;
+            return start_indices;
     }
 
     let start: number = 0;
@@ -43,7 +43,7 @@ function stringAnagramsSolution(str: string, pattern: string): number[] {
             const endCharCount: number = seen.get(endChar) - 1;
             seen.set(endChar, endCharCount);
 
-            // If endCharCount = 0 we know current substring includes the char 
+        // If endCharCount = 0 we know current substring includes the char 
             if (endCharCount === 0) {
                 match += 1;
             }
